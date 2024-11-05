@@ -4,6 +4,7 @@ import Constants  from 'expo-constants';
 
 import Exemplo1 from './src/exemplos/ex_01';
 import Exemplo2 from './src/exemplos/ex_02';
+
 import Atividade1 from './src/atividades/atv_01';
 import Atividade2 from './src/atividades/atv_02';
 
@@ -11,7 +12,7 @@ import Atividade2 from './src/atividades/atv_02';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo2/>
+      <Atividade2/>
       <StatusBar style="auto" />
     </View>
   );
@@ -20,7 +21,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#a2d8fc',
+    backgroundColor: '#8751bd',
     padding:16,
     paddingTop:Constants.statusBarHeight|| 16,
    // alignItems: 'center',
